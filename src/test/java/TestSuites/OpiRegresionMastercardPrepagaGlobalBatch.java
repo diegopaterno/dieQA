@@ -143,7 +143,7 @@ public class OpiRegresionMastercardPrepagaGlobalBatch {
 		//status = API_OPERACIONES.post(report, name, configEntidad, entidad, TCFilesPath, endPoint, statusCodeEsperado);
 		//status = API_OPERACIONES.post(report, name, configEntidad, entidad, TCFilesPath, endPoint, statusCodeEsperado);
 		//GlobalBatchEndToEnd GlobalBatchEndToEnd = new GlobalBatchEndToEnd();
-		
+		//*************anotations***
 		status = GlobalBatchEndToEnd.altaCuentaEmbozado(data, report, DM, x, name, configEntidad, entidad, producto, baseURL, TCFilesPath, endPoint, statusCodeEsperado);
 		//
 		// Configuracion de variables para el armado del reporte
