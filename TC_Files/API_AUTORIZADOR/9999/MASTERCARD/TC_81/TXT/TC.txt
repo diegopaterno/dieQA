@@ -1,0 +1,56 @@
+{
+    "Forzada": "0",
+    "Origen": "12",
+    "Red": 1,
+    "MTI": "0100",
+    "DE2": "5522660041382879",
+    "DE3": "000000",
+    "DE4": "000000000100",
+    "DE5": "000000000100",
+    "DE6": "000000000100",
+    "DE7": "0726000923",
+    "DE9": "70111111",
+    "DE10": "61000000",
+    "DE11": "000021",
+    "DE12": "210923",
+    "DE13": "0725",
+    "DE14": "2604",
+    "DE15": "0725",
+    "DE16": "0725",
+    "DE18": "4899",
+    "DE20": "032",
+    "DE22": "050",// POS 01 - Manual, 02 - Banda Magnética, 90 - Lector de código de barra, 05 - Chip, 81 - e-commerce, 10 - Credencial en archivo, 82 - Por medio de servidor - 07 Contacless (in_modo_ingreso_terminal)
+    "DE32": "012345",
+    "DE33": "9685",
+    "DE35": "5522660041382879=260410101100100",
+    "DE37": "123456789012",
+    "DE41": "12345678",
+    "DE42": "123456789123456",
+    "DE43": "NETFLIX.COM            AMS           NLD",
+    "DE48": "R3715051112345678901",
+    "DE49": "840",
+    "DE50": "840",
+    "DE51": "032",
+    "DE61": "000000000020084090210",
+    "DE63": "MCC000003184",
+    "DE90": "0100131912{{Time}}0000001935300000019353",
+    "cvcchip": "707", //CVC3
+
+    "inSENTINELStatus": 0, // 0: Rechazado - 1: Aprobado sin fraude - 2 Aprobado y fraude exceptuado - 3: Rechazado con CALL ME - (-1): Aprobada no consultada - (-2): Aprobada error al consultar - NULL: Procesar normalmente
+
+    "inSENTINELRules": "Ejemplo Reglas de Fraude",
+
+    "inSENTINELExceptionRules": "Ejemplo Reglas de Fraude",
+
+    "Offset": "", //Se compara con campo PIN_OFFSET de la tabla TARJETAS. Si no se informa se apruba la transaccion
+
+    "CVC2STATUS": "99", //-2: error al consultar OPI Crypt / 99: valido / 00: invalido / 01: no enviado - (CVC_BANDA_VALIDO)
+
+    "CVC1STATUS": "99", //-2: error al consultar OPI Crypt / 99: valido / 00: invalido / 01: no enviado - (CVC_EMBOZADO_VALIDO)
+
+    "CvcChipValido": "1", //1= válido 0= Inválido
+
+    "EMVSTATUS": "99" //-2: error al consultar OPI Crypt / 99: valido / 00: invalido / 01: no enviado - (EMV_VALIDO) = ARQC
+
+}
+

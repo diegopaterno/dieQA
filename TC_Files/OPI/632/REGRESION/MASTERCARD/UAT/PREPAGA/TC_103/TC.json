@@ -1,0 +1,8 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "SELECT ID_ENTIDAD, MODO_INGRESO, COD_PAIS_COMERCIO, COD_PAIS_EMISOR, ID_MARCA, COD_RESPUESTA FROM AUTORIZACION WHERE ID_AUTORIZACION = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "MODO_INGRESO", "COD_PAIS_COMERCIO", "COD_PAIS_EMISOR", "ID_MARCA", "COD_RESPUESTA"],
+            "valoresEsperados": [["105", "90", " PE", "PER", "8", "00"]]
+        }
+    ]
+}

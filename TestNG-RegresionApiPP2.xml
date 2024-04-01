@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+  <test name="OpiRegresionMasterPrepaga">
+    <classes>
+      <class name="TestSuites.API_Mastercard_Prepaga">
+      	<methods>
+				<include name="TC_5_consultarDisponible" />
+					<include name="TC_6_consultarDeSaldo" />
+									<include name="TC_7_cambioDeEstadoCuentaConBaja" />
+										<include name="TC_8_cambioDeEstadoCuentaActiva" />
+		</methods>
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

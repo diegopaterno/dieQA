@@ -1,0 +1,17 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "select id_entidad, id_moneda, id_marca from autorizacion where id_autorizacion = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_MONEDA", "ID_MARCA"],
+            "valoresEsperados": [["105", "604", "8"]]
+        }
+    ],
+    "MTI100": {
+        "aplica": false,
+        "camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+    },
+    "MTI100": {
+        "aplica": false,
+        "camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+    }
+
+}

@@ -1,0 +1,14 @@
+{
+  "usuarios": [
+    {"username": "usuario1", "password": "contraseña1"},
+    {"username": "usuario2", "password": "contraseña2"}
+  ],
+  "dataElement22": [
+    {"DE22": "010"},
+    {"DE22": "020"},
+    {"DE22": "090"},
+    {"DE22": "050"},
+    {"DE22": "081"},
+    {"DE22": "070"}
+  ]
+}

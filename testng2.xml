@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" thread-count="2" parallel="methods">
+<test name="Test" thread-count="10" parallel="methods">
+<classes>
+<class name="TestSuites.OPI_TESTS">
+<methods>
+<include name="OPI_COMPRA_MANUAL2" />
+<include name="OPI_COMPRA_MANUAL3" />
+ <include name="OPI_COMPRA_MANUAL4" />
+<include name="OPI_COMPRA_MANUAL5" />
+<include name="OPI_COMPRA_MANUAL6" />
+<include name="OPI_COMPRA_MANUAL7" />
+<include name="OPI_COMPRA_MANUAL8" />
+<include name="OPI_COMPRA_MANUAL9" />
+<include name="OPI_COMPRA_MANUAL10" />
+</methods>
+</class>
+</classes>
+</test>
+</suite>

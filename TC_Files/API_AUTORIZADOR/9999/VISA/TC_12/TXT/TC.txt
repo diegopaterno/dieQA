@@ -1,0 +1,90 @@
+{
+    "Entidad": 9999,
+    "Origen": 12,
+    "Red": 6,
+    "MTI": "0100",
+    "DE2": "4001030026115673", //(producto prepago (P) Diego)
+    "DE3": "100000",
+    "DE4": "000000000200", // Monto de operacion
+    "DE5": "000000000200", // Monto de liquidacion
+    "DE6": "000000000200", // Monto del emisor
+    "DE7": "0716174233",
+    "DE9": "61000000",
+    "DE10": "61000000",
+    "DE11": "000037",
+    "DE12": "130700",
+    "DE13": "1004",
+    "DE14": "2611",
+    "DE15": "1004",
+    "DE16": "1004",
+    "DE17": null,
+    "DE18": "4899",
+    // valor anterior:4899 
+    // 7996 para activar fraude de sentinel realtime (regla activada: 44)
+    //"DE19": "000", Campo para Autorizador VISA - Acquiring Institution Country Code 
+    "DE20": "032",
+    "DE22": "070", // primeros dos dígitos en 81 para ecomerce
+    "DE23": null,
+    //"DE25": Campo para Autorizador VISA - POS Condition Code 
+    "DE26": null,
+    "DE28": null,
+    "DE32": "009685",
+    "DE33": "028314",
+    "DE34": "233212",
+    "DE35": "4001030026115673D271010101100100",
+    "DE37": "1234",
+    "DE38": null,
+    "DE39": "12", // 00, 10, 85, 87 aprobados por standin
+    "DE41": "165",
+    "DE42": "00000001       ",
+    //"DE44": Campo Autorizador VISA (Response Source/Reason Code)
+    "DE43": "NETFLIX.COM            AMS           ARG", //Si termina <> de ARG, es internacional
+    "DE45": null,
+    "DE48": "U",
+    "DE49": "032", // Moneda de operacion: 32 arg 840 usd 978 eur
+    "DE50": "840", // Moneda de liquidacion: 32 arg 840 usd 978 eur
+    "DE51": "032", // Moneda del emisor: 32 arg 840 usd 978 eur
+    "DE52": null,
+    "DE53": null,
+    //"DE59": Campo Autorizador VISA: (National POS Geographic Data)
+    "DE54": "00440320000000000010", // Monto Cashback: subcampos: 00(va 00), 40(siempre 40), 032(misma moneda que en el DE49), 0, 000000000010(importe)
+    "DE56": "12345",
+    "DE60": "",
+    "DE61": null,
+    "DE62": null,
+    "DE63": "MCC01128W",
+    //"DE73": Campo Autorizador VISA: Date, Action
+    "DE95": "000000000000000000000000000000000000", // Motno para reversa parcial: Si es > 0, se toma como reversa parcial, 
+    //"DE95": "000000000300000000000300000000000300", // Motno para reversa parcial: Si es > 0, se toma como reversa parcial, sino como total
+    "DE90": "010000003607161742330000000968500000028314",
+    //Reverso Red MC - MTIoriginal(4)+DE11(6)+DE7(10)+DE32(<    11)alineado a la derecha con 0s a la izq+DE33(11)alineado a la derecha con 0s a la izq
+    //"DE100": Campo Autorizador VISA: Receiving Institution Identification Code
+    //"DE101": Campo Autorizador VISA: File Name
+    "DE102": null,
+    "DE103": null,
+    //"DE104": Campo Autorizador VISA:Usage 1-Transaction Description & Transaction-Specific Data
+    "DE108": null,
+    "DE112": "010002010110111234567891003500201036012123456789101",
+    //"DE115": Campo Autorizador VISA: Additional Trace Data
+    //"DE117": Campo Autorizador VISA: National Use
+    //"DE118": Campo Autorizador VISA: Intra-Country Data
+    "DE120": null,
+    "DE121": null,
+    //"DE123": Campo Autorizador VISA: Verification Data
+    "DE124": null,
+    "DE125": null,
+    //"DE126": Campo Autorizador VISA: Field 126 Bitmap
+    "DE127": null,
+    "inSENTINELStatus": "1",
+    "inSENTINELRules": "Ejemplo Reglas de Fraude",
+    "inSENTINELExceptionRules": "Ejemplo Reglas de Fraude",
+    "offset": "",
+    "RequestId": "",
+    "CVC1Status": "01",
+    "CVC2Status": "01",
+    "EMVStatus": "99",
+    "cvcchip": "{{cvc}}", //CVC3
+    //"Offset" :"1234",
+    "CvcChipValido": "0", //1= válido 0= Inválido
+    "Forzada": null // (in_forzar)
+}

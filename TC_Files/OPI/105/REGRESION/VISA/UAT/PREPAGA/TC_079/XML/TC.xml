@@ -1,0 +1,36 @@
+<isomsg direction="incoming">
+      <field id="0" value="0100"/>
+      <field id="2" value="4040310069990403"/>
+      <field id="3" value="000000"/>
+      <field id="4" value="000000010000"/>
+      <field id="5" value="000000010000"/>
+      <field id="6" value="000000010000"/>
+      <field id="7" value="0206161240"/>
+      <field id="11" value="018966"/>
+      <field id="12" value="131240"/>
+      <field id="13" value="0206"/>
+      <field id="14" value="2511"/>
+      <field id="18" value="5999"/>
+      <field id="19" value="604"/>
+      <field id="20" value="604"/>
+      <field id="22" value="{{DE22}}"/>
+      <field id="23" value="001"/>
+      <field id="25" value="00"/>
+      <field id="28" value="D00000000"/>
+      <field id="32" value="412321"/>
+      <field id="33" value="12345678901"/>
+      <field id="35" value="4040310069990403=25122210010534000008"/>
+      <field id="37" value="403716018966"/>
+      <field id="41" value="TERMID01"/>
+      <field id="42" value="420429000211552"/>
+      <field id="43" value="COTO  CICSA    S.A.                   PE"/>
+      <field id="49" value="840"/>
+      <field id="50" value="840"/>
+      <field id="51" value="840"/>
+      <field id="59" value="00032C1001"/>
+      <field id="60" value="02" type="binary"/>
+      <field id="61" value="000000020000" type="binary"/>
+      <field id="62" value="01025100006100840071080000" type="binary"/>
+      <field id="104" value="6700080103F0F3F20201F2" type="binary"/>
+      <field id="117" value="F0F3F2E5C1F1F0F0F0F0F0F7F4F5F8F3F2F9F0F1F2F2F0F0F0F2F3F6F5F2F8F4F2F1F0F0F1120919000002536450121019000002536450121119000002536450121219000002536450" type="binary"/>
+    </isomsg>

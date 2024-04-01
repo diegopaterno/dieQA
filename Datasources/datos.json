@@ -1,0 +1,20 @@
+{
+  "usuarios": [
+    {"username": "usuario1", "password": "contraseña1"},
+    {"username": "usuario2", "password": "contraseña2"}
+  ],
+  "dataElement22": [
+    {"DE22": "9010"},
+    {"DE22": "9020"},
+    {"DE22": "9090"},
+    {"DE22": "9050"},
+    {"DE22": "9081"},
+    {"DE22": "9070"},
+    {"DE22": "9510"},
+    {"DE22": "9520"},
+    {"DE22": "9590"},
+    {"DE22": "9550"},
+    {"DE22": "9581"},
+    {"DE22": "9570"}
+  ]
+}

@@ -1,0 +1,52 @@
+<isomsg direction="incoming">
+<field id="0" value="0400"/>
+<field id="2" value="4103520066434502"/>
+<field id="3" value="000000"/>
+<field id="4" value="000000010000"/>
+<field id="6" value="000000010000"/>
+<field id="7" value="0228163715"/>
+<field id="9" value="70160928"/>
+<field id="10" value="61000000"/>
+<field id="11" value="528673"/>
+<field id="12" value="133715"/>
+<field id="13" value="0228"/>
+<field id="14" value="2601"/>
+<field id="15" value="0228"/>
+<field id="16" value="0228"/>
+<field id="18" value="7372"/>
+<field id="22" value="{{DE22}}"/>
+<field id="23" value="000"/>
+<field id="32" value="020066"/>
+<field id="33" value="12345678901"/>
+<field id="35" value="4103520066434502=26012210000000000000"/>
+<field id="37" value="000000103848"/>
+<field id="41" value="23104750"/>
+<field id="42" value="13431414       "/>
+<field id="43" value="NETFLIX.COM             408-724-9160  PE"/>
+<field id="48" value="R230200610500001"/>
+<field id="49" value="604"/>
+<field id="50" value="840"/>
+<field id="51" value="840"/>
+<!-- <field id="61" value="000000000030003201001     " type="binary"/>   000000005000000000005000000000005000      -->
+<field id="63" value="MRGEPJZWP" type="binary"/>
+<field id="90" value="010052867302281637150000002006612345678901"/>
+<!--<field id="95" value="000000005000000000005000000000005000000000"/> -->
+</isomsg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<isomsg direction="incoming">
+      <field id="0" value="0100"/>
+      <field id="2" value="4103520066434502"/>
+      <field id="3" value="000000"/>
+      <field id="4" value="000000600000"/>
+      <field id="5" value="000000600000"/>
+      <field id="6" value="000000600000"/>
+      <field id="7" value="0206135631"/>
+      <field id="11" value="018965"/>
+      <field id="12" value="105631"/>
+      <field id="13" value="0206"/>
+      <field id="14" value="2601"/>
+      <field id="18" value="6011"/>
+      <field id="19" value="604"/>
+      <field id="20" value="604"/>
+      <field id="22" value="{{DE22}}"/>
+      <field id="23" value="001"/>
+      <field id="25" value="00"/>
+      <field id="28" value="D00000000"/>
+      <field id="32" value="412321"/>
+      <field id="33" value="12345678901"/>
+      <field id="35" value="4103520066434502=26012210000000000000"/>
+      <field id="37" value="403713018965"/>
+      <field id="41" value="TERMID01"/>
+      <field id="42" value="000000000000001"/>
+      <field id="43" value="DEBITO AUTOMATICO ONIMA BUENOS AIRES PE"/>
+      <field id="49" value="604"/>
+      <field id="50" value="604"/>
+      <field id="51" value="604"/>
+      <field id="55" value="01005F9F3303204000950500000000009F37049BADBCAB9F100706010A03A000009F260823407D96A53513CD9F36020030820200009C01009F1A0208409A031809019F02060000000010005F2A0208409F03060000000000008407A0000000031010" type="binary"/>
+      <field id="59" value="00032C1001"/>
+      <field id="60" value="0000000002" type="binary"/>
+      <field id="62" value="01025100006100840071080000" type="binary"/>
+      <field id="104" value="6700080103F0F3F20201F2" type="binary"/>
+      <field id="117" value="F0F3F2E5C1F1F0F0F0F0F0F7F4F5F8F3F2F9F0F1F2F2F0F0F0F2F3F6F5F2F8F4F2F1F0F0F1120919000002536450121019000002536450121119000002536450121219000002536450" type="binary"/>
+    </isomsg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+  <test name="API_Autorizador">
+    <classes>
+      <class name="TestSuites.API_Autorizador_Peru_VISA">
+       <methods>
+         <include name="TC_1_compraApiAutorizador"></include> 
+       </methods>
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

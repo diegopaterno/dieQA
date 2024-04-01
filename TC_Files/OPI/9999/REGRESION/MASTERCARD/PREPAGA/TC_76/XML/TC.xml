@@ -1,0 +1,37 @@
+<isomsg direction="outgoing">
+      <field id="0" value="0100"/>
+      <field id="2" value="5522660041382879"/>
+      <field id="3" value="000000"/>
+      <field id="4" value="000000000100"/>
+      <field id="5" value="000000000100"/>
+      <field id="6" value="000000000100"/>
+      <field id="7" value="0726000923"/>
+      <field id="9" value="70111111"/>
+      <field id="10" value="61000000"/>
+      <field id="11" value="000021"/>
+      <field id="12" value="210923"/>
+      <field id="13" value="0725"/>
+      <field id="14" value="2604"/>
+      <field id="15" value="0725"/>
+      <field id="16" value="0725"/>
+      <field id="18" value="4899"/>
+      <field id="20" value="032"/>
+      <field id="22" value="900"/>
+      <field id="32" value="012345"/>
+      <field id="33" value="9685"/>
+      <field id="35" value="5522660041382879=260410101100100"/>
+      <field id="37" value="123456789012"/>
+      <field id="41" value="12345678"/>
+      <field id="42" value="123456789123456"/>
+      <field id="43" value="NETFLIX.COM            AMS           NLD"/>
+      <field id="48" value="R3715051112345678901"/>
+      <field id="49" value="032"/>
+      <field id="50" value="840"/>
+      <field id="51" value="032"/>
+      <field id="61" value="000000000020084090210"/>
+      <field id="63" value="MCC000003184"/>
+    </isomsg>
+
+
+
+

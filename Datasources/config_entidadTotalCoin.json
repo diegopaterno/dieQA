@@ -1,0 +1,124 @@
+{
+    "GO": {
+        "user": "admin9999",
+        "pass": "GlobalProc#1",
+        "url_go": "https://v2entidad9999.web.qa.global.globalprocessing.net.ar/"
+    },
+    "GBATCH": {
+        "user": "adminbatch",
+        "pass": "GlobalProc#1",
+        "url_gbatch": "https://v2batch.web.qa.global.globalprocessing.net.ar/",
+		"descripcion":"Entidad 9999",
+		"credito":"Entidad credito",
+		"lemonQA":"105-Banco Alfin"  
+    },
+    "GBATCHUAT": {
+        "user": "adminbatch",
+        "pass": "GlobalProc#1",
+        "url_gbatch": "https://v2batch.web-uat.globalprocessing.com.ar/",
+		"descripcion":"632",
+		"credito":"Entidad credito",
+		"descripcion":"632",
+		"lemonUAT":"105-Lemon Peru"  
+    },
+    "GBACKEND": {
+        "user": "adminbackend",
+        "pass": "GlobalProc",
+        "url_gbackend": "https://v2backend.web.qa.global.globalprocessing.net.ar/"
+    },
+    "DBUAT": {
+        "user": "uat_entidad632",
+        "pass": "UAT_ENTIDAD632$$",
+        "host": "gpwf-em-uat-ent632.cz13hmbiyteq.us-east-1.rds.amazonaws.com",
+        "SID": "gp632",
+        "port": "1521"
+    },
+    "DB": {
+        "user": "uat_entidad632",
+        "pass": "UAT_ENTIDAD632$$",
+        "host": "gpwf-em-uat-ent632.cz13hmbiyteq.us-east-1.rds.amazonaws.com",
+        "SID": "gp632",
+        "port": "1521"
+    },
+    "DBLEMON": {
+        "user": "desa_ENTIDAD105",
+        "pass": "Lemon_2024",
+        "host": "gp247.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "GP247",
+        "port": "1521"
+    },
+    "DBLEMONQA": {
+        "user": "qa_entidad105",
+        "pass": "Rayados_2024",
+        "host": "gpwf-aq-qa-ent.cunfmyfynl3c.us-east-1.rds.amazonaws.com",
+        "SID": "GP247",
+        "port": "1521"
+    },
+    "DBLEMONUAT": {
+        "user": "uat_entidad105",
+        "pass": "America_2024",
+        "host": "gpwf-em-uat-ent247.cz13hmbiyteq.us-east-1.rds.amazonaws.com",
+        "SID": "GP247",
+        "port": "1521"
+    },
+    "DBCREDITO": {
+        "user": "desa_entidad8801",
+        "pass": "cre_entidad0101",
+        "host": "gp247.cvhla41mhkl1.us-east-1.rds.amazonaws.com",
+        "SID": "GP247",
+        "port": "1521"
+    },
+    "DBPARAM": {
+        "user": "dpaterno",
+        "pass": "qaGP123!",
+        "host": "gpwf-aq-qa-par.cunfmyfynl3c.us-east-1.rds.amazonaws.com ",
+        "port": "1521",
+        "SID": "PARAMQA"
+    },
+    "TOKENPREPAGA": {
+		"base_url": "https://v2TotalCoin.api-uat.globalprocessing.com.ar/Prepaga",
+		"url_token": "http://sso.globalprocessinguat.com/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "prepagas",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "APREPAID",
+        "client_secret": "45ae46c0-1792-4830-a564-7f09f17edc6a"
+    },
+    "TOKENAUTINTERNO": {
+		"base_url": "https://AutorizadorGw.api.qa.global.globalprocessing.net.ar/api/emision/autorizacion",
+		"url_token": "http://sso.globalprocessingqa.com/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "authorizationnew",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "AUTHORIZATION",
+        "client_secret": "d112bbc7-9879-413a-9105-d1d46886d2a4"
+    },
+    "TOKENAUTLEMON": {
+		"base_url": "https://AutorizadorGw.api.desa.global.globalprocessing.net.ar/api/emision/autorizacion",
+		"url_token": "http://sso.globalprocessingdev.com/auth/realms/GlobalProcessing/protocol/openid-connect/token",
+        "username": "authorizationnew",
+        "password": "GlobalProc",
+        "grant_type": "password",
+        "client_id": "AUTHORIZATION",
+        "client_secret": "d112bbc7-9879-413a-9105-d1d46886d2a4"
+    },
+    "OPI_CONFIG": {
+		"privateKey": "./OPI_Files/opensshkey.pem",
+		"user": "root",
+        "host": "10.72.0.22",
+        "port": "22",
+        "opi": "opiemimcaut"
+    },
+    "OPI_CONFIG_DOCK": {
+		"privateKey": "./OPI_Files/opensshkey.pem",
+		"user": "root",
+        "host": "10.72.0.22",
+        "port": "22"
+    },
+	"ENTIDAD":{
+		"id_entidad": "632",
+		"ambiente": "uat",
+	},
+	"Prueba Azure": "123"
+		 
+}

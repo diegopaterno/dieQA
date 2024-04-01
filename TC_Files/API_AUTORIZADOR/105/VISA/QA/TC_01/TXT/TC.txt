@@ -1,0 +1,68 @@
+{
+    "MTI": "0100",
+    "Entidad": 105,
+    "Origen": 12,
+    "DE102": null,
+    "DE2": "4040310069990403",//tc 
+    "DE3": "000000",// operacion
+    "DE4": "000000010000", //monto
+    "DE6": "000000010000",//monto
+    "DE5": "000000010000",//monto
+    "DE7": "1206152383",
+    "DE9": "61000000",
+    "Red": 6,
+    "DE18": "4899", //4899 serv digital no SD 5311
+    "DE10": "61000000",
+    "DE17": null,
+    "DE11": "000017",
+    "DE12": "152358",
+    "DE13": "0911",//mes dia de fecha actual
+    "DE14": "2511",//vencimiento tc
+    "DE15": "0911", //mes dia liquidacion
+    "DE16": "0911", //mes dia liquidacion
+    "DE20": "604",
+    "DE22": "010",
+    "DE23": null,
+    "DE26": null,
+    "DE28": null,
+    "DE33": "00000000000",
+    "DE32": "009685",
+    "DE35": "4040310069990403D251110101100100",//tc
+    "DE37": "123456789012",
+    "DE38": "428490",
+    "DE39": null,
+    "DE41": "Reg00004",
+    "DE42": "687555537877464",
+    "DE43": "NETFLIX.COM            408-724-9160  PE", //comercio
+    "DE45": null,
+    "DE48": "R9506ARGCTA",
+    "DE49": "604",
+    "DE50": "604",
+    "DE51": "604",
+    "DE52": null,
+    "DE53": null,
+    "DE54": null,
+    "DE55": null,
+    "DE60": null,
+    "DE61": null,
+    //"DE61": "000000000020084090210",
+    "DE62": null,
+    "DE63": "MCC0569JU",
+    "DE90": "010000001712061523830000000968500000000000",
+    "DE95" : null,
+    "DE103": null,
+    "DE108": null,
+    "DE112": "0010042001",//cuotas
+    "DE120": null,
+    "DE121": null,
+    "DE127": null,
+    "DE124": null,
+    "DE125": null,
+    "inSENTINELStatus": "-1",
+    "offset": "",
+    "RequestId": "1234",
+    "CVC1Status": "01",
+    "CVC2Status": "01",
+    "EMVStatus": "99",
+    "Forzada": "1"
+}

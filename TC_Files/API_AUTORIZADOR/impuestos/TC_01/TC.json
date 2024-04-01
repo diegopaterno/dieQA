@@ -1,0 +1,8 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "select c.descripcion, a.importe, a.id_concepto_socio from ajustes_socios a inner join conceptos_socios c on a.ID_CONCEPTO_SOCIO = c.id_concepto_socio where a. id_autorizacion = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_MONEDA_ORIGEN", "ID_MONEDA"],
+            "valoresEsperados": [["PERCEPCION RG4815/2020 45%", "135", "2161"],["BIENES PERSONALES", "75", "2249"],["PERCEP IIBB TIERRA DEL FUEGO SERV. DIGITALES", "9", "2151"],["PERCEPCION IMPUESTO LEY 27541 8% PAIS", "24", "2155"]]
+        }
+    ]
+}

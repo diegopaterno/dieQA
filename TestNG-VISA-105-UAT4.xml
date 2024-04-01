@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regresion Autorizador Visa PERU" verbose="10">
+  <test name="COMPRA / REVERSO - COMPRA / DEVOLUCION">
+    <classes>
+      <class name="TestSuites.OpiRegresionVisaPrepagaUAT">
+       	<methods>
+		       <include name="opiVisaReversoManualUAT"></include>
+		       <include name="opiVisaReversoParcialManualUAT"></include>
+		       <include name="opiVisaReversoManualBinExtUAT"></include>
+		       <include name="opiVisaReversoBinExtParcialManualUAT"></include>
+		       <include name="opiVisaCompraDevolucionManualUAT"></include>
+		       <include name="opiVisaCompraDevolucionManualMonedaExtUAT"></include>
+       </methods>
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

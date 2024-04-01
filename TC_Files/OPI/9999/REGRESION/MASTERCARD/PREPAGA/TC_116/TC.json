@@ -1,0 +1,11 @@
+{	
+	
+	"VALIDACIONESDB": [
+		{
+			 "query": "select id_entidad, id_moneda_origen, id_moneda, id_estado, modo_ingreso, cod_respuesta, id_respuesta_interna, cod_pais_comercio, cod_pais_emisor, id_marca, es_cashback from autorizacion where id_autorizacion_emisor = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_MONEDA_ORIGEN", "ID_MONEDA", "ID_ESTADO", "MODO_INGRESO", "COD_RESPUESTA", "COD_PAIS_COMERCIO", "COD_PAIS_EMISOR", "ID_MARCA"],
+            "valoresEsperados": [["9999", "32", "32", "0", "07", "00", "ARG", "ARG", "1"],["9999","32","32","0","07","00","ARG","ARG","1"]]
+		}
+	
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "VALIDACIONESDB": [{
+            "query": "select id_entidad, id_moneda_origen, id_moneda, id_estado, modo_ingreso, cod_respuesta, cod_pais_comercio, cod_pais_emisor, id_marca from autorizacion where id_autorizacion = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_MONEDA_ORIGEN", "ID_MONEDA", "ID_ESTADO", "MODO_INGRESO", "COD_RESPUESTA", "COD_PAIS_COMERCIO", "COD_PAIS_EMISOR", "ID_MARCA"],
+            "valoresEsperados": [["105", "604", "604", "0", "90", "00", "USA", "PER", "8"]]
+        }
+    ],
+    "MTI100": {
+        "aplica": false,
+        "camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+    },
+    "MTI100": {
+        "aplica": false,
+        "camposEsperados": [['41', '5001031'], ['2', '457596______1125'], ['4', '000000055055']]
+    }
+
+}

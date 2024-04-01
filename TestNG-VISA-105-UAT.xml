@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regresion Autorizador Visa PERU" verbose="10">
+  <test name="Consumo y manejo de errores">
+    <classes>
+      <class name="TestSuites.OpiRegresionVisaPrepagaUAT">
+       		 <methods>
+			      <include name="opiVisaConsumoLocal"></include>
+			      <include name="opiVisaCompraSaldoInsuficiente"></include>
+			      <include name="opiVisaTarjetaBaja"></include>
+			      <include name="opiVisaTarjetaVencida"></include>
+			      <include name="opiVisaBinInexistente"></include>
+			      <include name="opiVisaVencimientoInformadoDifiereDelRegistrado"></include>
+			       <include name="opiVisaCuentaInactiva"></include>
+			      <include name="opiVisaCampoMontoNulo"></include>
+			      <include name="opiVisaMontoExcedeDisponible"></include>
+			      <include name="opiVisaCampoTarjetaNull"></include>
+			       <include name="opiVisaCampoModoIngresoInvalido"></include>
+			      <include name="opiVisaPanDifiereEnDE2YDE35"></include>
+			      <include name="opiVisaComercioInvalido"></include>
+			      <include name="opiVisaCodigoMonedaInvalido"></include>
+			       <include name="opiVisaCompraManualQA"></include>
+			      <include name="opiVisaCompraManualBinExtQA"></include>
+      </methods>    
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+  <test name="OpiRegresionMasterPrepaga">
+    <classes>
+      <class name="TestSuites.API_autorizador_end_to_end">
+       
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

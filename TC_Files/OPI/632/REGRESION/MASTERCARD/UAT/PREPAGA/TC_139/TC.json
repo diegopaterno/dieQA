@@ -1,0 +1,30 @@
+{	
+	"expectedDE39": "00",
+	"applyDBValidations": false,
+	"applyMSGValidations": false,
+	"VALIDACIONESDB": [
+		{
+			 "query": "select id_entidad, id_moneda_origen, id_moneda, id_estado, cod_respuesta, cod_pais_comercio, cod_pais_emisor, id_marca from autorizacion where id_autorizacion = ('{{id_autorizacion_emisor}}')",
+            "camposEsperados": ["ID_ENTIDAD", "ID_MONEDA_ORIGEN", "ID_MONEDA", "ID_ESTADO", "COD_RESPUESTA", "COD_PAIS_COMERCIO", "COD_PAIS_EMISOR", "ID_MARCA"],
+            "valoresEsperados": [["632", "840", "32", "0", "00", "NLD", "ARG", "1"]]
+		}
+	],
+	"VALIDACIONESMSG": [
+		{
+			"mti": "msgIn2",
+			"camposValidaciones": [['62.2', '313160094664882']]
+		},
+		{
+			"mti": "msgOut1",
+			"camposValidaciones": [['3', '000000']]
+		},
+		{
+			"mti": "msgIn1",
+			"camposValidaciones": [['62.2', '313160094664882']]
+		},
+		{
+			"mti": "msgOut2",
+			"camposValidaciones": [['62.2', '313160094664882']]
+		}
+	]
+}
